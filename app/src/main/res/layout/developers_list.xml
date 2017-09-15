@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f8f9fd">
+
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/github_profile_image"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/portrait"
+            app:civ_border_color="#FF0000"
+            app:civ_border_width="2.3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/github_username"
+                style="@style/glist_github_username"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Mimi" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:background="@color/primary_overlay" />
+</LinearLayout>

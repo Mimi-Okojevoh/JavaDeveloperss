@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF0000</item>
+        <item name="colorPrimaryDark">#FF0000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EachProfile">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Full_name" parent="@style/EachProfile">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="username" parent="@style/EachProfile">
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/actionbarTop</item>
+    </style>
+
+    <style name="link" parent="@style/EachProfile">
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/actionbarTop</item>
+    </style>
+
+    <style name="glist_github_username">
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+</resources>
+
+
+
